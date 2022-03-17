@@ -18,4 +18,3 @@ Route::get('/relation', [AuthorController::class, 'relate']);
 Route::get('/session', [SessionController::class, 'getSes']);
 Route::post('/session', [SessionController::class, 'postSes']);
 
-Route::get('/', [AuthorController::class, 'index']);
