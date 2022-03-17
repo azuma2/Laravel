@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\BookController;//追記
 
-
+use Illuminate\Support\Facades\Route;//上部に追記
 
 use App\Http\Controllers\SessionController;
 

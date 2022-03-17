@@ -7,10 +7,9 @@ use App\Models\Author;
 
 class AuthorController extends Controller
 {
-{
     public function index()
     {
-        $items = Author::Paginate(4);
+        $items = Author::simplePaginate(4);
         return view('index', ['items' => $items]);
     }
     public function find()
